@@ -31,3 +31,39 @@ body {
 }
 
 
+/* Collections Section */
+.collections {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.collection-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.collection-card {
+  width: 300px;
+}
+
+.collection-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.collection-card h3 {
+  margin-top: 1rem;
+}
+
+.btn {
+  border: none;
+  margin-top: 0.5rem;
+  background-color:#F7F6F0 ;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  border-radius: 20px;
+  
+}
